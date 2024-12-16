@@ -1,0 +1,111 @@
+/* Base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1, h2 {
+    font-size: 2rem;
+    color: #5e6d7e;
+}
+
+/* Auth Page Styles */
+.auth-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.auth-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.auth-container button {
+    padding: 12px;
+    background-color: #5e6d7e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.auth-container a {
+    text-decoration: none;
+    color: #5e6d7e;
+}
+
+/* Post Feed Styles */
+.index-page .post-feed {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.index-page .post {
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.index-page .post .content {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Add Post Form */
+.add-post-form {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.add-post-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.add-post-form button {
+    padding: 12px;
+    background-color: #5e6d7e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Emoji Section */
+.emoji {
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
